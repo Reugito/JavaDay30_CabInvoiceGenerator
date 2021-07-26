@@ -19,8 +19,8 @@ public class CabInvoiceGeneratorTest {
 	@Before
 	public void setUp() {
 		InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
-		
 	}
+	
     @Test
     public void givenDistanceAndTime_ReturnTotalFare(){
     	double distance = 2.0;
